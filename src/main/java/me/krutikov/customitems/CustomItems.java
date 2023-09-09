@@ -33,7 +33,7 @@ public final class CustomItems extends JavaPlugin {
     public void onDisable() {
 
     }
-    public void init(Plugin plugin) {
+    public static void init(Plugin plugin) {
         customItemService = new CustomItemServiceImpl();
         Bukkit.getPluginManager().registerEvents(new CustomItemListener(), plugin);
     }
