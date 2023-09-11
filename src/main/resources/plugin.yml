@@ -1,4 +1,0 @@
-name: CustomItems
-version: '${project.version}'
-main: me.krutikov.customitems.CustomItems
-api-version: '1.16'
