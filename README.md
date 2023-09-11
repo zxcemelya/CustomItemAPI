@@ -4,6 +4,6 @@
 По приколу
 
 
-CustomItems.init(); в он Ебало и все апи работает у вас
-
-зарегать предмет - CustomItems.getCustomItemService().registerItem(предмет);
+Установка:
+ Вписывайте - new CustomItems(this); в onEnable();
+ Зарегистрировать предмет - CustomItems.getCustomItemService().registerItem(предмет);
